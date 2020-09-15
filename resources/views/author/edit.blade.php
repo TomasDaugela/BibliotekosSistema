@@ -16,6 +16,7 @@
                             <label for="">Pavardė</label>
                             <input type="text" name="surname" class="form-control" value="{{ $author->surname }}">
                         </div>
+                        
 
                         <button type="submit" class="btn btn-primary">Pakeisti</button>
                     </form>

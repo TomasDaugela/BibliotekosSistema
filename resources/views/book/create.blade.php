@@ -29,7 +29,7 @@
                            <select name="author_id" id="" class="form-control">
                                 <option value="" selected disabled>Pasirinkite Autorių</option>
                                 @foreach ($authors as $author)
-                                <option value="{{ $author->id }}">{{ $author->name }}</option>
+                                <option value="{{ $author->id }}">{{ $author->surname }}</option>
                                 @endforeach
                            </select>
                        </div>
